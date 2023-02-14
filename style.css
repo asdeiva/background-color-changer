@@ -13,6 +13,15 @@
     background-color: black;
     color: white;
 }
+.colorcode{
+    margin-right: 20px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
 #btn{
     width: 200px;
     height: 60px;
@@ -30,7 +39,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .bg{
-    height:90vh;
+    height:100vh;
     width:100vw;
     display:flex;
     align-items: center;
